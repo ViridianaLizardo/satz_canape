@@ -3,10 +3,14 @@
 This repo has the files and scripts to recreate phylogenetic diversity calculations, CANAPE, and statistical analysis. 
 
 ## Data
-- env_vars: raster files of the enviromental variables analized
-- processed: comunity matrix, phylogenetic tree and, occurrence data.
+- `env_vars`: raster files of the enviromental variables analized
+- `processed`: comunity matrix, phylogenetic tree and, occurrence data.
 
 ## Scripts: With the key parts for recreate this study.
+- 01_occurrence_processing.R
+- 02_paleoclimate_processing.R
+- 03_canaper_analysis.R
+- 04_statistical analysis.R
 
 ## Results: metrics_final_100.gpkg
 This file is a **GeoPackage** containing the results of the CANAPE (Categorical Analysis of Neo- and Paleo-Endemism) analysis at a spatial resolution of 100 km grid cells. Each record corresponds to a grid cell and includes taxonomic, phylogenetic, and environmental metrics used in the study.  
