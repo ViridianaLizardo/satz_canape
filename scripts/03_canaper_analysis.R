@@ -36,6 +36,8 @@ library(ape)        # For handling phylogenies
 # CANAPE-specific packages
 library(canaper)    # For CANAPE analysis
 
+# For sample coverage
+library(BAT)
 
 
 # 2. DATA PREPARATION----
@@ -136,6 +138,11 @@ geiger::name.check(tree, names_comm)
 sites_per_sp <- colSums(comm)
 sites_per_sp[sites_per_sp == 0]
 
+
+# Sample coverage
+cov_df <- coverage(comm = comm)
+
+comm$cov <- cov_df$X
 
 # 7. CANAPE ANALYSIS PREPARATION----
 
