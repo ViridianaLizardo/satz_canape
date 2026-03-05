@@ -1,4 +1,6 @@
-# Reproducible repository for: [Add title here]
+[![DOI](https://zenodo.org/badge/1056374314.svg)](https://doi.org/10.5281/zenodo.17345712)
+
+# Reproducible repository for: Biogeographic boundaries and angiosperm phylogenetic endemism: highlighting the evolutionary complexity of the South American Transition Zone
 
 This repo has the files and scripts to recreate phylogenetic diversity calculations, CANAPE, and statistical analysis. 
 
